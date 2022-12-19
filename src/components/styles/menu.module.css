@@ -1,0 +1,31 @@
+.btn{
+    background: transparent;
+}
+.btnImg{
+    width: 50px;
+    height: 50px;
+    transition: .8s;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.btnImg:hover{
+    transform: scale(1.1) rotate(360deg)
+}
+.menuList{
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  
+}   
+
+.menuLink{
+    text-decoration: none;   
+    font-size: large;
+    font-weight: bold;
+    color: pink;
+    transition: .3s;
+}
+.menuLink:hover{
+    transform: scale(1.05);
+}

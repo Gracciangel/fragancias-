@@ -1,0 +1,13 @@
+RUTAS Y NAVEGACION EN REACT 
+
+para crear rutas en react es necesario usar una libreria llamada react-router-dom ===> esta libreria se instala {npm install react-router-dom} y proporciona varios elementos de lo cuales normalmente se usa el <BrowserRouter/> , <Routes/> , <Route/>.
+
+<BrowserRouter/> ===> debemos envolver todo lo que esta dentro del componente App. o dentro del index el componente App. de esta manera decimos a react que vamos a usar componentes HIJOS  del BrowserRouter.
+
+<Routes/> dentro del BrowserRouter debemos envolver todo aquello que vamos a utilizar como ruta con el Routes, basicamente decimos que usaremos rutas.
+
+<Route/> por ultimo debemos darle una ruta a la ruta es decir una direccion normalmente se usa dentro de un documento HTML el <a><a/> pero en vez de eso usamos el Route la misma solo tiene una apertura y auto-cierre es decir no se cierra como el componenente Routes o BrowserRouter , la sintaxis correcta es <Route path='/home' element=<Home/> /> de esta manera logramos darle el componente 'Home' la ruta /home. 
+
+dentro de esta libreria tenemos algo llamado Link, este componente llega para 'sustituir' a los anchor (a) los cuales se usan normalmente en HTML, los Link se usan para envolver aquello que queremos usar como enlace ejemplo 
+
+<Link to='/'>Home<Link/>  ===> de esta forma en la direccion inicial sera usada como home y cuando se haga click dentro del enlace 'Home' viajaremos al principio de la pagina.
