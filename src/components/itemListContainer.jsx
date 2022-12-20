@@ -9,7 +9,7 @@ import {dataBase} from '../serivce/firebase'
 
 
 const ItemListContainer =() => {
-    const categoryName = useParams()
+    // const categoryName = useParams()
 const [items , setItem] = useState([])//==> con un estado persistimos la informacion. Es la única manera que hay de persistir la informacion en este caso persistimos un array.
 
 useEffect(()=>{
