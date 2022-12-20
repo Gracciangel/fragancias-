@@ -20,7 +20,7 @@ const NavBar = () => {
                                         </div>
                                         <nav>
                                                 <ul className={Style.menuList}>
-                                                        <Link className={Style.menuLink} to='/home'>Home</Link>
+                                                        <Link className={Style.menuLink} to='/'>Home</Link>
                                                         <Link className={Style.menuLink} to='/item'>Productos</Link>
                                                         <Link className={Style.menuLink} to='/contacto'>Contacto</Link>
                                                 </ul>
